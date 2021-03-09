@@ -1,16 +1,20 @@
-# This is a sample Python script.
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+#write a program to take a input fromm the user, ask the user age.If the user age is below 15.
+# print a massage"you are a child", if theb users age is greater than 15 and lesser than 40 print a message
+#"you are adult",if the users age is greater than 40 print a mesage "you are old"
+
+# age=int(input("ente4r the age"))
+# if age<15:
+#     print("you are a child")
+# elif 15<age<40:
+#     print("you are adult")
+# else:
+#     print("you are old")
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+#write a program.a person has a basics salary 20000.he spends 10% of his basic salary as expenses .
+# to find gross net salary after his expenses.
+salary=20000
+expenses=10/100 * 20000
+gross  = salary-expenses
+print(gross)
